@@ -19,7 +19,7 @@ ul {
 
 .container {
     margin: 0 auto;
-    padding: 15px 0;
+    padding: 0 15px;
     max-width: 1320px;
     width: 100%;
 }
@@ -551,3 +551,54 @@ ul {
     margin-bottom: 20px;
 
 }
+
+@media (max-width:1200px){
+    .main__course {
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .main__course-right {
+        align-items: center;
+        
+    }
+
+    .main__credit {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .main__credit-left {
+       align-items: center;
+    }
+
+    .main__intro-content {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .main__intro-title{
+        text-align: center;
+        padding-bottom: 20px;
+
+    }
+
+    
+
+    .main__offer-box {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+       
+    }
+
+    .main__mobile-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+}
+

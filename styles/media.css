@@ -1,0 +1,45 @@
+
+@media (max-width: 800px) {
+    .nav__content {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .nav__content-right {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main__intro-img {
+        width: 100%;
+    }
+
+    .main__bottom {
+        flex-direction: column;
+        
+    }
+}
+
+@media (max-width: 550px) {
+    .main__credit-img {
+        width: 100%;
+    }
+
+    .main__course-img {
+        width: 100%;
+    }
+
+    .main__intro-app {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav__content-list {
+        gap: 10px;
+    }
+    .main__course-box {
+        align-items: center;
+        justify-content: center;
+    }
+}
